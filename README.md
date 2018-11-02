@@ -25,3 +25,12 @@ Create deploy/crds/app_v1beta1_appservice_crd.yaml
 Running code-generation for custom resource group versions: [app:v1beta1, ]
 Generating deepcopy funcs
 
+Create pkg/apis/app/v1alpha1/appservice_types.go
+Create pkg/apis/addtoscheme_app_v1alpha1.go
+Create pkg/apis/app/v1alpha1/register.go
+Create pkg/apis/app/v1alpha1/doc.go
+Create deploy/crds/app_v1alpha1_appservice_cr.yaml
+Create deploy/crds/app_v1alpha1_appservice_crd.yaml
+Running code-generation for custom resource group versions: [app:v1alpha1,v1beta1, ]
+Generating deepcopy funcs
+
